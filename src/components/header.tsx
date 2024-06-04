@@ -1,5 +1,5 @@
 import React from "react";
-import { ModeToggle } from "./theme-toggle";
+import { ToggleTheme } from "./theme-toggle";
 import Link from "next/link";
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
       <div className="flex gap-x-4 items-center">
         <Link href="/portfolio">Portfolio</Link>
         <Link href="/portfolio">Contact</Link>
-        <ModeToggle />
+        <ToggleTheme />
       </div>
     </div>
   );
