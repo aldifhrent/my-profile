@@ -2,6 +2,7 @@ import React from "react";
 import { Poppins } from "next/font/google";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import ImageProfile from "./images-profile";
 
 //👇 Configure our font object
 const poppins = Poppins({
@@ -14,6 +15,7 @@ const poppins = Poppins({
 const ProfileData = () => {
   return (
     <>
+    <ImageProfile/>
       <div>
         <p
           className={cn(
